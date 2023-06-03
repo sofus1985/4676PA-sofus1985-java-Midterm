@@ -9,6 +9,10 @@ public class Fibonacci {
      **/
 
     public static void main(String[] args) {
-
+     int n = 40, t1 = 0, t2 = 1;
+        System.out.println("first" + n + "terms: ");
+        for (int i = 1; i <= n; ++i) {
+            System.out.println(t1 + "+");
+        }
     }
 }
